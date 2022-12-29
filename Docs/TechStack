@@ -1,0 +1,20 @@
+Asking for: A document explaining why you chose the technology stack that you are demonstrating; 
+Describe the process and reasoning the team used to
+select the stack, and explain why you chose it over the other. 
+The doc should be added to your ‘docs’ folder on github.
+
+Our team decide to use react framework as front-end, flask framework as back-end, and MongoDB as database for our project. 
+
+For front-end, we decide to use react framework instead of others like Angular.js because React.js is the most popular javascript library for now 
+and is easy to learn, and poweful. To be more specific, we can use react.js to make our development progress easier due to its reusable components. 
+React.js is a good fit for us to develop a extendable, flexible web app. Additionally, it has advantage for server rendering : it can show webpage on server before 
+sending webpage to web browser, such that allow user to visit webpage faster. 
+
+For back-end, we decide to use flask framework, a micro web framework written in python,  for our implementation of back-end. 
+One reason for use flask is that all members know python syntax, and flask framework is lightweight, flexible for development. 
+And it is very easy to use and understand with strong documentation. 
+On the other hand, other python based framework like Django may also be a good choice, however, since Django follows MVC, we think it sometimes is too common 
+for large projects and feels bloated for smaller projects like ours.
+
+For database, we decide to use MongoDB instead of MySQl is that we think it is more convinient to use a NoSQL document-oriented database program to deal with 
+complex relationships among data comparing relational database. What is more, MongoDB has advantages like simplicity, easy installation and settup, stong documentation, etc. 

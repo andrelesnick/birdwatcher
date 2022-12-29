@@ -1,0 +1,167 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+       <!-- Javascript -->
+       <script src="assets/js/jquery-3.2.1.min.js"></script>
+       <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+       <script src="assets/js/jquery.backstretch.min.js"></script>
+       <script src="assets/js/wow.min.js"></script>
+       <script src="assets/js/retina-1.1.0.min.js"></script>
+       <script src="assets/js/waypoints.min.js"></script>
+       <script src="assets/js/scripts.js"></script>
+
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bird Seeker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+                <li class="nav-item">
+            <a class="nav-item nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="birdanatomy.html">Bird Anatomy</a>
+            <a class="nav-item nav-link" href="about.html">About Us</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: center;
+  width: 33.3%;
+  height: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-align: center;
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Hello and welcome to our new web app Bird Seeker!</p>
+  <p>Thanks to our wonderful and creative team member, Andre, we have decided to make a web app that helps people record their bird sightings, search for specific birds and listen to their song.</p>
+</div>
+
+<h2 style="text-align:center">The Developers!</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://media.cnn.com/api/v1/images/stellar/prod/221108131824-chris-evans-071922.jpg?c=original" alt="Andre" style="width:100%">
+      <div class="container">
+        <h2>Andre Lesnick</h2>
+        <p class="title">OAuth & EBird API</p>
+        <p>andrecl@bu.edu</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.indiewire.com/wp-content/uploads/2022/06/Justice-League-e1670462452490.jpg" alt="Ana" style="width:100%">
+      <div class="container">
+        <h2>Ana Di Tano</h2>
+        <p class="title">Web Designer</p>
+        <p>anadt@bu.edu</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+        <img src="https://www.thewrap.com/wp-content/uploads/2017/05/peter-quill-chris-pratt-star-lord-guardians-of-the-galaxy-vol-2.jpg" alt="Chris" style="width:100%">
+        <div class="container">
+          <h2>Christian Deasis</h2>
+          <p class="title">Pexels & Bird Sounds API</p>
+          <p>cdeasis@bu.edu</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://yt3.ggpht.com/ytc/AMLnZu9vMoeLnqEkYEqsaDHhNUru4ZZOQMC2rUaI91kYOg=s900-c-k-c0x00ffffff-no-rj" alt="Steven" style="width:100%">
+      <div class="container">
+        <h2>Steven (Huo) Haoxiang</h2>
+        <p class="title">Database</p>
+        <p>stevehuo@bu.edu</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
